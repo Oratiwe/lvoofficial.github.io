@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    
+</head>
+<style>
+   section{
+    padding: 40px 15px;
+   }
+   .contact{
+    background: grey;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+   }
+
+   .contact-img img{
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+
+   }
+
+   .contact-form h1{
+    font-size: 80px;
+    color:  rgb(72, 72, 97);
+    margin-bottom: 20px;
+   }
+   span{
+    color: rgb(72, 72, 97);
+   }
+
+   .contact-form p{
+    color: wheat;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+   }
+
+   .contact-form form{
+    position: relative;
+   }
+   .contact-form form input,form textarea{
+    width: 100%;
+    padding: 17px;
+    bottom: none;
+    outline: none;
+    background: #191919;
+    color: wheat;
+    font-size: 1.1rem;
+    border-radius: 10px;
+   }
+
+   .contact-form textarea{
+    resize:none;
+    height: 200px;
+   }
+
+   .contact-form form .btn{
+    display: inline-block;
+    background: rgb(72, 72, 97);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border:2px solid transparent ;
+    border-radius:10px;
+    width: 200px;
+    transition: ease .20s;
+    cursor: pointer;
+
+   }
+
+   .contact-form form .btn:hover{
+    border: 2px solid grey;
+    background: transparent;
+    transform: scale(1.1);
+   }
+   footer{
+  background:#353333;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
+
+   /* @media (max-width:1570px){
+    section{
+        padding: 80px 3px;
+        transition: .2s;
+    }
+   }
+
+   .contact-form h1{
+    font-size: 60px;
+   }
+
+   .contact-form p{
+    margin-bottom: 3rem;
+   }
+
+   @media(max-width: 1090px){
+
+   } */
+
+
+</style>
+<body>
+    <section class="contact">
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <p>I AM AVAILABLE FOR FASHION SHOWS. CONNECT WITH ME VIA PHONE 0711125355
+                OR EMAIL :admin@example.com</p>
+                <form action="">
+                    <input type="" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="" placeholder="Write a Design" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+                    <input type="submit" name="" value="submit" class="btn">
+
+
+                </form>
+        </div>        
+
+        <div class="contact-img">
+            <img src="./images/fashion cartoon 1.jpg" width="50%" height="50%">
+        </div>
+    </section>
+    <footer>
+        <div class="text">
+          <span>Created By <a href="#">Emily MOKOENA</a> | &#169; 2022 All Rights Reserved</span>
+        </div>
+      </footer>
+</body>
+</html>

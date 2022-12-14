@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }     
+    .body{
+        background:rgb(72, 72, 97);
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }        
+    .wrapping{
+        width: 80%; 
+        height: 80vh;
+        background-color: darkgray;
+        border: radius 2px;
+        padding:20px;
+    }  
+    .container .wrapping .content h1{
+        text-align: center;
+        font-size: 50px;
+        color: #FFF;
+    }  
+    .skills{
+        display: inline;
+    }
+    .skills .con {
+        height: 40px;
+        width: 100%;
+        background-color:rgb(72, 72, 97);
+        border-radius: 30px;
+        margin-top: 5px;
+    }
+    .skills .con .stat {
+        height: 100%;
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+        animation: run 4s ease forwards;
+    }
+    @keyframes run {
+        10%{
+            width: 0%;
+        }
+
+    }
+    
+    .skills .con .stat1 p{
+        line-height: 30px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .skills .con .stat1 {
+        height: 100%;
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+        animation: run 4s ease forwards;
+    }
+    @keyframes run {
+        10%{
+            width: 0%;
+        }
+
+    }
+    
+    .skills .con .stat2 p{
+        line-height: 30px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .skills .con .stat2 {
+        height: 100%;
+        width: 30%;
+        background-color: rgb(248, 244, 248);
+        transition: 1s;
+        animation: run 4s ease forwards;
+    }
+    @keyframes run {
+        10%{
+            width: 0%;
+        }
+
+    }
+    
+    .skills .con .stat2 p{
+        line-height: 30px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    footer{
+  background:#353333;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+</style>
+<body>
+    <div class="container">
+       <div class="wrapping">
+        <div class="content">
+            
+
+
+            <h1>SKILLS</h1>
+            <br><br>
+            <div class="skills">
+                <h1>PATTERN MAKING</h1>
+                <div class="con">
+                    <div class="stat"><p>80%</p></div>
+                </div>
+            </div>
+            <br>
+            <div class="skills">
+                <h1>TECHNICAL DRAWING</h1>
+                <div class="con">
+                    <div class="stat1"><p>50%</p></div>
+                </div>
+            </div>
+            <br>
+            <div class="skills">
+                <h1>3D FASHION Design</h1>
+                <div class="con">
+                    <div class="stat2"><p>30%</p></div>
+                </div>
+            </div>
+            <br>
+            
+
+        </div>
+       </div>
+    </div>
+    <footer>
+        <div class="text">
+          <span>Created By <a href="#">Emily MOKOENA</a> | &#169; 2022 All Rights Reserved</span>
+        </div>
+      </footer>
+</body>
+</html> 
